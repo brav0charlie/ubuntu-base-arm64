@@ -20,7 +20,7 @@ Initially built to serve as the base of my [cardano-node-arm64(https://github.co
   - UID="1000"
   - GID="1000"
   - Set up home directory
-- Copy container-dotfiles project to .dotfiles
+- Copy [container-dotfiles](https://github.com/brav0charlie/container-dotfiles.git) project to .dotfiles
   - Copy .zshrc into $HOME
 - Set permissions
 - Set container to run as user `lovelace`
