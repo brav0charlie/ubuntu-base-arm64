@@ -1,0 +1,5 @@
+This repository was "forked" from https://gitlab.com/viperscience/docker-containers.
+
+I used Viper Science's repo as a starting point, making a number of changes along the way. Things have been added, things have been removed, and things have been changed.
+
+I have not included a LICENSE file, as there wasn't one present in their repo. 
