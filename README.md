@@ -1,7 +1,7 @@
 # ubuntu-base-arm64: A base docker image built on Ubuntu 22.04 LTS ARM64
 A customized ARM64 Ubuntu 22.04 LTS-based docker base image created for use in various docker projects.
 
-Initially built to serve as the base of my [cardano-node-arm64(https://github.com/brav0charlie/cardano-node-arm64)] docker image.
+Initially built to serve as the base of my [cardano-node-arm64](https://github.com/brav0charlie/cardano-node-arm64) docker image.
 
 ## Customizations
 - Start with arm64v8/ubuntu as a base image
