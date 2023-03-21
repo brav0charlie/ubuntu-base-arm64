@@ -9,9 +9,11 @@ else
 fi
 
 # Configure console colors & timestamp
-Blue='\033[0;34m'                 # Text Color Blue
-color_off='\033[0m'               # End Text Coloring
-INFO="[${Blue}INFO${color_off}]"  # INFO tag
+Blue='\033[0;34m'                       # Text color: Red
+Red='\033[0;31m'                        # Text color: Blue
+color_off='\033[0m'                     # Text color: Return to default
+INFO="[${Blue}INFO${color_off}]"        # INFO tag
+ERRORTAG="[${Red}ERROR${color_off}]"    # ERROR tag
 TIMESTAMP="$(date '+%Y-%m-%dT%H:%M:%S %Z')"
 
 # Script Info
@@ -28,5 +30,5 @@ docker build -t $IMAGE_NAME:$TAG .
 if [ $? -eq 0 ]; then
     echo "$INFO [$TIMESTAMP] Build complete: $IMAGE_NAME:$TAG"
 else
-    echo "$INFO [$TIMESTAMP] Build failed. See output for more information."
+    echo "$ERRORTAG [$TIMESTAMP] Build failed. See output for more information."
 fi
