@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Set image name. Default name provided.
 IMAGE_NAME="ubuntu-base-arm64"
 
